@@ -1,0 +1,290 @@
+*,*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  #fff;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* header start */
+.header-group {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.logo-name {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+.list-logi {
+    list-style: none;
+    margin-top: 25px;
+}
+.item-logo {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.nav-bar {
+    margin-top: 10px;
+}
+.nav-list {
+    list-style: none;
+}
+.list-item {
+    margin-left: 55px;
+}
+.list-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+.icon {
+    padding-top: 15px;
+}
+.icon-list {
+    list-style: none;
+}
+.icon-item {
+    margin-left: 40px;
+}
+.dog-img {
+    position: relative;
+}
+.dog-title-btn {
+    position: relative;
+    padding-top: 155px;
+}
+.dog-title-div {
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    position: relative;
+    width: 613px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    z-index: 2;
+}
+.btn {
+    padding-top: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-buy {
+    border: none;
+    width: 123px;
+    height: 48px;
+    background: #E27B3A;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: background 0.4s ease;
+}
+.btn-buy:hover {
+    background-color: transparent;
+    border: 1px solid #E27B3A;
+    color: #E27B3A;
+}
+.btn-deta {
+    width: 139px;
+    height: 48px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #E27B3A;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    transition: background 0.4s ease;
+    margin-left: 20px;
+}
+.btn-deta:hover {
+    background-color: #E27B3A;
+    color: #fff;
+}
+.dog-pictures {
+    position: absolute;
+    right: -110px;
+    top: 25px;
+}
+.bcg-img {
+    position: absolute;
+    top: -90px;
+    right: 0;
+    z-index: 2;
+}
+#food {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.food-dog {
+    position: relative;
+    top: 150px;
+}
+.food-item {
+    width: 360px;
+    height: 241px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.food-item:hover {
+    box-shadow: 2px 2px 5px 8px rgba(0, 0, 0, 0.1);
+}
+.food-img {
+    position: absolute;
+    top: -35px;
+    width: 50px;
+    margin-left: 150px;
+}
+.food-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin-top: 24px;
+}
+.food-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    margin-top: 11px;
+}
+.food-link {
+    position: absolute;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    bottom: 0;
+    margin-left: 150px;
+}
+/* header over */
+/* =============================================================================== */
+/* footer start */
+.fot-dog {
+    position: relative;
+    padding-bottom: 100px;
+    margin-top: 350px;
+    background-color: #140A03;
+}
+.pr {
+    color: #E27B3A;;
+}
+.dog-product {
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.triangle {
+    width: 0;
+    height: 0;
+
+}
+.product-list {
+    padding-top: 100px;
+}
+.product-item {
+    margin-bottom: 37px;
+}
+.product-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.dog-log {
+    padding-top: 30px;
+}
+.wolf {
+    margin-bottom: 10px;
+}
+.log-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: -70px;
+}
+.popular-list {
+    padding-top: 90px;
+}
+.popular-item {
+    margin-bottom: 37px;
+}
+.popular-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.social {
+    margin-top: 65px;
+    margin-left: -65px
+}
+.facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/facebook.svg");
+    background-repeat: no-repeat;
+    background-size: 9px 17px;
+    background-position: center center;
+}
+.global {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/global.svg");
+    background-repeat: no-repeat;
+    background-size: 16px 18px;
+    background-position: center center;
+}
+.twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url("../img/twitter.svg");
+    background-repeat: no-repeat;
+    background-size: 14px 12px;
+    background-position: center center;
+}
+/* footer over */
